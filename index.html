@@ -6,6 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Travel</title>
+
+    <script type="text/javascript">
+        window.onload = function (){
+            document.querySelector(".menuMobile").addEventListener ("click",function (){
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+        </script>
+        
 </head>
 <body>
     <header>
@@ -219,7 +232,7 @@
             </div>
         </div> 
     </section>
-    <section class="default_light blue">
+    <section class="default_light">
         <div class="logo">
             <img src="assets/images/logo3.png"/>
             <img src="assets/images/logo4.png"/>
@@ -229,71 +242,79 @@
         </div>
     </section>
 
-    <section class="default_light violet">
-        <div class="violet_seta">
-            <img src="assets/icons/icons5.png"/>
-        </div>
-        <div class="violet_top"> Subscribe to get information, latest news and other
-            interesting offers about Cobham
-        </div>
-        <div class="violet_bottom">
-            <div class="violet_email">
-                <img src="assets/icons/icons13.png"/>
-                <input type="text" name="name" placeholder="Your email" />
+    <section class="default_light">
+        <div class="violet">
+            <div class="violet_seta">
+                <img src="assets/icons/icons5.png"/>
             </div>
-            <div class="violet_buttom">
-                <input type="submit" value="Subscribe" class="button" />
+            <div class="violet_top"> Subscribe to get information, latest news and other
+                interesting offers about Cobham
+            </div>
+            <div class="violet_bottom">
+                <div class="violet_email">
+                    <img src="assets/icons/icons13.png"/>
+                    <input type="text" name="name" placeholder="Your email" />
+                </div>
+                <div class="violet_buttom">
+                    <input type="submit" value="Subscribe" class="button" />
+                </div>
             </div>
         </div>
     </section>
 
     <footer class="default_light">
         <div class="footer_top">
-            <div class="section_footer">
-                <img src="assets/images/logo2.png"/>
-                <div class="footer_p">
-                    Book your trip in minute, get full. Control for much longer.
-                </div>
-            </div>
-            <div class="section_footer">
-                <div class="footer_title">Company</div>
-                <div class="footer_px">About</div>
-                <div class="footer_px">Careers</div>
-                <div class="footer_px">Mobile</div>
-            </div>
-            <div class="section_footer">
-                <div class="footer_title">Contact</div>
-                <div class="footer_px">Help/FAQ</div>
-                <div class="footer_px">Press</div>
-                <div class="footer_px">Affilates</div>
-            </div>
-            <div class="section_footer">
-                <div class="footer_title">More</div>
-                <div class="footer_px">Airlinefees</div>
-                <div class="footer_px">Airline</div>
-                <div class="footer_px">Low fare tips</div>
-            </div>
-            <div class="section_footer">
-                <div class="footer_redes">
-                    <div class="redes">
-                        <a href=""><img src="assets/icons/facebook.png"/></a>
-                    </div>
-                    <div class="redes instagram">
-                        <a href=""><img src="assets/icons/instagram.png"/></a>
-                    </div>
-                    <div class="redes">
-                        <a href=""><img src="assets/icons/icons6.png"/></a>
+            <div class="footer_responsive">
+                <div class="section_footer">
+                    <img src="assets/images/logo2.png"/>
+                    <div class="footer_p">
+                        Book your trip in minute, get full. Control for much longer.
                     </div>
                 </div>
-                <div class="footer_disc">Discover our app</div>
-                <div class="footer_store">
-                    <div class="store_ft">
-                        <img src="assets/icons/googleplay.png"/>
-                        <img src="assets/images/vector.png"/>
+            </div>
+            <div class="footer_responsive">
+                <div class="section_footer">
+                    <div class="footer_title">Company</div>
+                    <div class="footer_px">About</div>
+                    <div class="footer_px">Careers</div>
+                    <div class="footer_px">Mobile</div>
+                </div>
+                <div class="section_footer">
+                    <div class="footer_title">Contact</div>
+                    <div class="footer_px">Help/FAQ</div>
+                    <div class="footer_px">Press</div>
+                    <div class="footer_px">Affilates</div>
+                </div>
+                <div class="section_footer">
+                    <div class="footer_title">More</div>
+                    <div class="footer_px">Airlinefees</div>
+                    <div class="footer_px">Airline</div>
+                    <div class="footer_px">Low fare tips</div>
+                </div>
+            </div>
+            <div class="footer_responsive">
+                <div class="section_footer">
+                    <div class="footer_redes">
+                        <div class="redes">
+                            <a href=""><img src="assets/icons/facebook.png"/></a>
+                        </div>
+                        <div class="redes instagram">
+                            <a href=""><img src="assets/icons/instagram.png"/></a>
+                        </div>
+                        <div class="redes">
+                            <a href=""><img src="assets/icons/icons6.png"/></a>
+                        </div>
                     </div>
-                    <div class="store_ft">
-                        <img src="assets/icons/apple.png"/>
-                        <img src="assets/images/vector1.png"/>
+                    <div class="footer_disc">Discover our app</div>
+                    <div class="footer_store">
+                        <div class="store_ft">
+                            <img src="assets/icons/googleplay.png"/>
+                            <img src="assets/images/vector.png"/>
+                        </div>
+                        <div class="store_ft">
+                            <img src="assets/icons/apple.png"/>
+                            <img src="assets/images/vector1.png"/>
+                        </div>
                     </div>
                 </div>
             </div>
