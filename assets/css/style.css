@@ -723,9 +723,15 @@ footer {
     nav ul {
         display: none;
         position: absolute;
+        flex-direction: column;
         left:0;
         width: 100%;
         background-color: #FFF;
+        top: 150px;
+    }
+    nav li {
+        width: 20%;
+        text-align: center;
     }
     .menuMobile {
         display: flex;
@@ -819,31 +825,4 @@ footer {
         text-align: center;
     }
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-       /* @media (max-width: 768px) {
-        .menu {
-        flex-direction: column;
-    }
-    .menuMobile {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-    .menu_mobile {
-        display:none;
-        position: absolute;
-    }
-    
 }
